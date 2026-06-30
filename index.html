@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <title>プライバシーポリシー — MtG Wishlist</title>
+  <style>
+    :root { color-scheme: light dark; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", Meiryo, sans-serif;
+      line-height: 1.8;
+      color: #1c1c1e;
+      background: #f5f5f7;
+      -webkit-text-size-adjust: 100%;
+    }
+    .wrap { max-width: 720px; margin: 0 auto; padding: 40px 20px 80px; }
+    h1 { font-size: 1.7rem; font-weight: 700; margin: 0 0 4px; letter-spacing: .02em; }
+    .updated { color: #6e6e73; font-size: .9rem; margin: 0 0 28px; }
+    h2 { font-size: 1.2rem; font-weight: 700; margin: 40px 0 8px; padding-top: 8px; }
+    h3 { font-size: 1.02rem; font-weight: 600; margin: 24px 0 6px; }
+    p { margin: 12px 0; }
+    ul { margin: 12px 0; padding-left: 1.3em; }
+    li { margin: 4px 0; }
+    a { color: #0a66c2; }
+    hr { border: 0; border-top: 1px solid #d2d2d7; margin: 32px 0; }
+    table { border-collapse: collapse; width: 100%; margin: 16px 0; font-size: .95rem; }
+    th, td { border: 1px solid #d2d2d7; padding: 8px 12px; text-align: left; vertical-align: top; }
+    th { background: #ececee; font-weight: 600; }
+    .note { background: #fff; border: 1px solid #d2d2d7; border-radius: 10px; padding: 14px 16px; margin: 16px 0; }
+    .foot { color: #6e6e73; font-size: .88rem; margin-top: 40px; font-style: italic; }
+    .email { font-weight: 600; }
+    @media (prefers-color-scheme: dark) {
+      body { color: #e6e6ea; background: #1c1c1e; }
+      .updated, .foot { color: #9a9aa0; }
+      th { background: #2c2c2e; }
+      td, th { border-color: #3a3a3c; }
+      .note { background: #2c2c2e; border-color: #3a3a3c; }
+      hr { border-top-color: #3a3a3c; }
+      a { color: #6cb6ff; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <h1>プライバシーポリシー</h1>
+    <p class="updated">最終更新: 2026年6月27日</p>
+
+    <p>本アプリ「MtG Wishlist」（以下「本アプリ」）のプライバシーポリシーです。</p>
+
+    <hr>
+
+    <h2>収集するデータ</h2>
+
+    <h3>1. 匿名価格データ（自動収集）</h3>
+    <p>カードを「購入済み」にした際、以下のデータを匿名で開発者のサーバー（Supabase）へ送信します。</p>
+    <table>
+      <thead><tr><th>項目</th><th>内容</th></tr></thead>
+      <tbody>
+        <tr><td>カード印刷 ID</td><td>Scryfall のカード印刷識別子（個人情報ではありません）</td></tr>
+        <tr><td>仕上げ種別</td><td>foil / nonfoil / etched</td></tr>
+        <tr><td>希望価格（円）</td><td>ユーザーが入力した目標購入価格</td></tr>
+        <tr><td>希望コンディション</td><td>設定している場合のみ（NM / EX / GD）</td></tr>
+        <tr><td>フォーマットタグ</td><td>設定している場合のみ（Standard / Modern 等）</td></tr>
+      </tbody>
+    </table>
+    <p class="note"><strong>送信しないデータ：</strong> 端末 ID・Apple ID・メールアドレス・位置情報・その他いかなる個人情報も送信しません。各送信に識別子を一切付与しないため、同一ユーザーの複数回送信を紐付けることは技術的に不可能です。</p>
+
+    <h3>2. 収集しないデータ</h3>
+    <p>本アプリは以下を収集しません。</p>
+    <ul>
+      <li>氏名・住所・連絡先などの個人識別情報</li>
+      <li>端末識別子（IDFA・IDFV・広告 ID 等）</li>
+      <li>位置情報</li>
+      <li>ウィッシュリストの内容（カード名・枚数・メモ等）</li>
+      <li>閲覧・検索履歴</li>
+    </ul>
+
+    <hr>
+
+    <h2>データの利用目的</h2>
+    <p>収集した価格データは、アプリ内の「最安値」参考価格を表示するための<strong>統計的集計</strong>にのみ使用します。個人識別・広告配信・第三者販売その他の目的には使用しません。</p>
+
+    <hr>
+
+    <h2>データの保持と削除</h2>
+    <p>価格サンプルデータは収集から <strong>90 日</strong> を超えると集計対象から外れます。集計後の個別サンプルは定期的に削除されます。</p>
+
+    <hr>
+
+    <h2>第三者への提供</h2>
+    <p>収集したデータを広告主・データブローカー・その他の第三者には提供しません。サーバー側の集計処理は開発者のみが行います。なお、サーバーインフラとして <a href="https://supabase.com/" rel="noopener">Supabase</a> を使用しており、Supabase のプライバシーポリシーが適用されます。</p>
+
+    <hr>
+
+    <h2>App Store プライバシー栄養ラベル</h2>
+    <p>Apple の App Store プライバシー申告において、本アプリは以下のように申告しています。</p>
+    <table>
+      <thead><tr><th>項目</th><th>内容</th></tr></thead>
+      <tbody>
+        <tr><td>収集データ</td><td>その他のデータ（価格情報）</td></tr>
+        <tr><td>ユーザーへのリンク</td><td>なし</td></tr>
+        <tr><td>追跡への使用</td><td>なし</td></tr>
+        <tr><td>利用目的</td><td>アプリ機能（参考価格の集計表示）</td></tr>
+      </tbody>
+    </table>
+
+    <hr>
+
+    <h2>お問い合わせ</h2>
+    <p>本ポリシーに関するご質問は下記へお送りください。</p>
+    <p><span class="email">Email:</span> <a href="mailto:bridges1712@gmail.com">bridges1712@gmail.com</a></p>
+
+    <hr>
+
+    <p class="foot">本ポリシーは予告なく改定することがあります。重要な変更がある場合はアプリのアップデートに合わせてお知らせします。</p>
+  </main>
+</body>
+</html>
