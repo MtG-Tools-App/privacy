@@ -46,7 +46,7 @@
 <body>
   <main class="wrap">
     <h1>Privacy Policy</h1>
-    <p class="updated">Last updated: September 22, 2026</p>
+    <p class="updated">Last updated: October 20, 2026</p>
 
     <p>This is the privacy policy for the app &ldquo;MtG Wishlist&rdquo; (the &ldquo;App&rdquo;). This English page is a translation of the <a href="https://mtg-tools-app.github.io/privacy/">Japanese privacy policy</a>. If the two differ, the Japanese version prevails.</p>
 
@@ -68,25 +68,38 @@
     </table>
     <p class="note"><strong>Data we do not send:</strong> The App does not send a device ID, Apple ID, email address, location or any other personal information. No identifier is attached to any submission, so it is technically impossible to link multiple submissions to the same user.</p>
 
-    <h3>2. Data we do not collect</h3>
+    <h3>2. Usage milestones (collected automatically)</h3>
+    <p>To understand how far people get with the App&rsquo;s features, the App sends the name of a &ldquo;milestone&rdquo; and the app version anonymously to the developer&rsquo;s server (Supabase) the first time you reach it. Each milestone is sent only once per device.</p>
+    <table>
+      <thead><tr><th>Example milestones</th></tr></thead>
+      <tbody>
+        <tr><td>Opened the App; opened it again on a later day / 7 or more days later</td></tr>
+        <tr><td>Added a card; reached 5 cards; entered a target price; recorded a purchase</td></tr>
+        <tr><td>Viewed the Pro screen; became Pro</td></tr>
+        <tr><td>Used deck import, saving a share image, the token display, purchase history or saving a backup</td></tr>
+      </tbody>
+    </table>
+    <p>Only the milestone name and the app version are sent. No identifier, card, price or wishlist content is sent. It is technically impossible to tell which device a milestone came from or to link one device&rsquo;s milestones together.</p>
+
+    <h3>3. Data we do not collect</h3>
     <p>The App does not collect:</p>
     <ul>
       <li>Personally identifiable information such as name, address or contact details</li>
       <li>Device identifiers (IDFA, IDFV, advertising IDs, etc.)</li>
       <li>Location</li>
       <li>The contents of your wishlist (card names, quantities, notes, etc.)</li>
-      <li>Browsing or search history</li>
+      <li>Browsing or search history (the usage milestones above only record whether a feature was used for the first time, not what you viewed or searched for)</li>
     </ul>
 
     <hr>
 
     <h2>How we use the data</h2>
-    <p>The price data we collect is used only for <strong>statistical aggregation</strong>: to calculate the reference prices shown in the App (actual prices paid in Japan) and to record each card&rsquo;s price history. It is not used to identify individuals, for advertising, for sale to third parties or for any other purpose.</p>
+    <p>The price data we collect is used only for <strong>statistical aggregation</strong>: to calculate the reference prices shown in the App (actual prices paid in Japan) and to record each card&rsquo;s price history. Usage milestones are used only to count how many devices reached each milestone, to improve the App. Neither is used to identify individuals, for advertising, for sale to third parties or for any other purpose.</p>
 
     <hr>
 
     <h2>Retention and deletion</h2>
-    <p>Price samples are excluded from aggregation after <strong>90 days</strong> from collection. Individual samples are deleted periodically after aggregation. Each card&rsquo;s price history (daily aggregated values that cannot be linked to any individual submission or user) is retained.</p>
+    <p>Price samples are excluded from aggregation after <strong>90 days</strong> from collection. Individual samples are deleted periodically after aggregation. Each card&rsquo;s price history (daily aggregated values that cannot be linked to any individual submission or user) is retained. Usage milestones (only the milestone name, the app version and the time received) are retained for counting.</p>
 
     <hr>
 
@@ -101,10 +114,10 @@
     <table>
       <thead><tr><th>Item</th><th>Details</th></tr></thead>
       <tbody>
-        <tr><td>Data collected</td><td>Other data (price information)</td></tr>
+        <tr><td>Data collected</td><td>Other data (price information); Usage data (product interaction: usage milestones)</td></tr>
         <tr><td>Linked to you</td><td>No</td></tr>
         <tr><td>Used to track you</td><td>No</td></tr>
-        <tr><td>Purpose</td><td>App functionality (showing aggregated reference prices)</td></tr>
+        <tr><td>Purpose</td><td>App functionality (showing aggregated reference prices); Analytics (usage milestones)</td></tr>
       </tbody>
     </table>
 
